@@ -1,6 +1,7 @@
 .main {
-  width: 1080px;
+  position: relative;
+  max-width: 1580px;
   margin: 0 auto;
-  background-color: #424242;
+  background-color:deepskyblue;
   color: whitesmoke;
 }
