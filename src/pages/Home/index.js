@@ -7,6 +7,7 @@ import { faDiceD6,faBarcode,faMugSaucer } from "@fortawesome/free-solid-svg-icon
 const index = () => {
   return (
     <div className='Home'>
+      {/* 바 부분 */}
       <div className='navbar'>
         <div>
           <Link to='/'>
@@ -22,17 +23,28 @@ const index = () => {
           </Link>
         </ul>
       </div>
+
+      {/* 큐브 박스 */}
       <div className='Home__main'>
-        <h1>Hello THIS IS MY PortFolio Web Site bro!!</h1>
+        <div className='Home__h1'>
+          <h1>Hello THIS IS MY PortFolio <br/>Web Site bro!!</h1>
+        </div>
+        
         <div class="container">
           <div class="item">
-            <div class="rhombus"></div>
+            <Link to='/'>
+              <div class="rhombus"></div>
+            </Link>
           </div>
           <div class="item-1">
-            <div class="rhombus-1"></div>
+            <Link to='/portfolio'>
+              <div class="rhombus-1"></div>
+            </Link>
           </div>
           <div class="item-2">
-            <div class="rhombus-2"></div>
+            <Link to='/'>
+              <div class="rhombus-2"></div>
+            </Link>
           </div>
         </div>
       </div>

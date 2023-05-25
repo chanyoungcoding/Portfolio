@@ -19,6 +19,23 @@
   padding-left: 50px;
 }
 
+/* home__main */
+
+.Home__main {
+  position: relative;
+}
+
+.Home__h1 {
+  position: absolute;
+  top: 270px;
+  left: -80px;
+  background-color: #252527;
+  transform: rotate(-90deg);
+  font-size: 25px;
+
+}
+
+
 .container {
   display: flex;
   height: 80vh;
@@ -35,7 +52,7 @@
 .rhombus {
   width: 0px;
   height: 0px;
-  border-right: 190px solid #ed2020;
+  border-right: 190px solid #252527;
   border-top: 100px solid transparent;
   border-bottom: 130px solid transparent;
   position: relative;
@@ -45,7 +62,7 @@
 
 .rhombus:after {
   content: "";
-  border-left: 175px solid #ed2020;
+  border-left: 175px solid #252527;
   border-top: 125px solid transparent;
   border-bottom: 105px solid transparent;
   position: absolute;
@@ -53,11 +70,16 @@
   left: 189.5px;
 }
 
+.rhombus:hover {
+  transform: translateY(30px) translateX(30px);
+  transition: all 0.5s;
+}
+
 
 .rhombus-1 {
   width: 0px;
   height: 0px;
-  border-right: 200px solid #2873ff;
+  border-right: 200px solid #252527;
   border-top: 100px solid transparent;
   border-bottom: 100px solid transparent;
   position: relative;
@@ -66,7 +88,7 @@
 
 .rhombus-1:after {
   content: "";
-  border-left: 200px solid #2873ff;
+  border-left: 200px solid #252527;
   border-top: 100px solid transparent;
   border-bottom: 100px solid transparent;
   position: absolute;
@@ -74,6 +96,10 @@
   left: 200px;
 }
 
+.rhombus-1:hover {
+  transform: translateY(-30px);
+  transition: all 0.5s;
+}
 
 .item-2 {
   transform:rotate(-63deg);
@@ -82,7 +108,7 @@
 .rhombus-2 {
   width: 0px;
   height: 0px;
-  border-right: 190px solid #b7fa31;
+  border-right: 190px solid #252527;
   border-top: 100px solid transparent;
   border-bottom: 120px solid transparent;
   position: relative;
@@ -92,11 +118,16 @@
 
 .rhombus-2:after {
   content: "";
-  border-left: 180px solid #b7fa31;
+  border-left: 180px solid #252527;
   border-top: 130px solid transparent;
   border-bottom: 90px solid transparent;
   position: absolute;
   top: -100px;
   left: 189.8px;
+}
+
+.rhombus-2:hover {
+  transform: translateY(30px) translateX(-30px);
+  transition: all 0.5s;
 }
 
