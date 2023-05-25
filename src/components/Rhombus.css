@@ -1,0 +1,95 @@
+
+.container {
+  display: flex;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.item-0 {
+  transform:rotate(54deg);
+}
+
+.rhombus-0 {
+  width: 0px;
+  height: 0px;
+  border-right: 191px solid #252527;
+  border-top: 100px solid transparent;
+  border-bottom: 130px solid transparent;
+  position: relative;
+  top: 35px;
+  left: 105px;
+}
+
+.rhombus-0:after {
+  content: "";
+  border-left: 175px solid #252527;
+  border-top: 125px solid transparent;
+  border-bottom: 105px solid transparent;
+  position: absolute;
+  top: -100px;
+  left: 189.5px;
+}
+
+.rhombus-0:hover {
+  transform: translateY(30px) translateX(30px);
+  transition: all 0.5s;
+}
+
+
+.rhombus-1 {
+  width: 0px;
+  height: 0px;
+  border-right: 200px solid #252527;
+  border-top: 100px solid transparent;
+  border-bottom: 100px solid transparent;
+  position: relative;
+  left: -50%;
+}
+
+.rhombus-1:after {
+  content: "";
+  border-left: 200px solid #252527;
+  border-top: 100px solid transparent;
+  border-bottom: 100px solid transparent;
+  position: absolute;
+  top: -100px;
+  left: 200px;
+}
+
+.rhombus-1:hover {
+  transform: translateY(-30px);
+  transition: all 0.5s;
+}
+
+.item-2 {
+  transform:rotate(-63deg);
+}
+
+.rhombus-2 {
+  width: 0px;
+  height: 0px;
+  border-right: 191px solid #252527;
+  border-top: 100px solid transparent;
+  border-bottom: 120px solid transparent;
+  position: relative;
+  top: -5px;
+  left: -285px;
+}
+
+.rhombus-2:after {
+  content: "";
+  border-left: 180px solid #252527;
+  border-top: 130px solid transparent;
+  border-bottom: 90px solid transparent;
+  position: absolute;
+  top: -100px;
+  left: 189.8px;
+}
+
+.rhombus-2:hover {
+  transform: translateY(30px) translateX(-30px);
+  transition: all 0.5s;
+}
