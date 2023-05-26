@@ -1,10 +1,13 @@
-import React from 'react';
+import React,{useContext} from 'react';
 import './home.css';
 import Rhombus from '../../components/Rhombus';
 import Navbar from '../../components/Navbar';
+import {RandomNumberContext} from '../../contexts/randomNumber';
 
-const index = () => {
+const Index = () => {
 
+  const {randomNumber, wiseSaying} = useContext(RandomNumberContext);
+  console.log(randomNumber, wiseSaying)
   return (
     <div className="Home">
       {/* 바 부분 */}
@@ -13,8 +16,7 @@ const index = () => {
       <div className="Home__main">
         <div className="Home__h1">
           <h1>
-            Hello THIS IS MY PortFolio <br />
-            Web Site bro!!
+            {wiseSaying[randomNumber]}
           </h1>
         </div>
 
@@ -28,4 +30,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;
