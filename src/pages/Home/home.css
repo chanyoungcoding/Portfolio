@@ -1,22 +1,16 @@
-.icon {
-  text-decoration: none;
+.Home {
+  position: relative;
+  max-width: 1580px;
+  margin: 0 auto;
+  color: whitesmoke;
+}
+.Home__intro {
+  display: block;
+  text-align: center;
+  position: relative;
+  top: 100px;
+  font-size: 30px;
   color: #343434;
-  font-size: 45px;
-}
-
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 30px;
-}
-
-.navbar ul {
-  display: flex;
-}
-
-.navbar ul li {
-  padding-left: 50px;
 }
 
 /* home__main */
@@ -30,9 +24,17 @@
   width: 500px;
   top: 300px;
   left: -150px;
-  background-color: #252527;
   transform: rotate(-90deg);
   font-size: 25px;
+  color: #343434;
+}
 
+.Home__select {
+  position: absolute;
+  top: 400px;
+  right: -100px;
+  transform: rotate(90deg);
+  font-size: 150px;
+  color: #DEDDDB;
 }
 

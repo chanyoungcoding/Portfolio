@@ -15,7 +15,7 @@
 .rhombus-0 {
   width: 0px;
   height: 0px;
-  border-right: 191px solid #252527;
+  border-right: 191px solid #A1D0FF;
   border-top: 100px solid transparent;
   border-bottom: 130px solid transparent;
   position: relative;
@@ -25,7 +25,7 @@
 
 .rhombus-0:after {
   content: "";
-  border-left: 175px solid #252527;
+  border-left: 175px solid #A1D0FF;
   border-top: 125px solid transparent;
   border-bottom: 105px solid transparent;
   position: absolute;
@@ -42,7 +42,7 @@
 .rhombus-1 {
   width: 0px;
   height: 0px;
-  border-right: 200px solid #252527;
+  border-right: 201px solid #FFC8C8;
   border-top: 100px solid transparent;
   border-bottom: 100px solid transparent;
   position: relative;
@@ -51,7 +51,7 @@
 
 .rhombus-1:after {
   content: "";
-  border-left: 200px solid #252527;
+  border-left: 200px solid #FFC8C8;
   border-top: 100px solid transparent;
   border-bottom: 100px solid transparent;
   position: absolute;
@@ -71,7 +71,7 @@
 .rhombus-2 {
   width: 0px;
   height: 0px;
-  border-right: 191px solid #252527;
+  border-right: 191px solid #9BE8AF;
   border-top: 100px solid transparent;
   border-bottom: 120px solid transparent;
   position: relative;
@@ -81,7 +81,7 @@
 
 .rhombus-2:after {
   content: "";
-  border-left: 180px solid #252527;
+  border-left: 180px solid #9BE8AF;
   border-top: 130px solid transparent;
   border-bottom: 90px solid transparent;
   position: absolute;
