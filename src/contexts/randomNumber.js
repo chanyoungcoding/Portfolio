@@ -12,8 +12,9 @@ const RandomNumberProvider = ({ children }) => {
     'If life were predictable it would cease to be life, and be without flavor. – Eleanor Roosevelt',
     'Many of life’s failures are people who did not realize how close they were to success when they gave up. - Thomas A. Edison',
   ]
-
+  //랜덤 숫자 출력
   const [randomNumber, setRandomNumber] = useState(null);
+  //랜덤 명언 저장
   const [wiseSaying] = useState(lifeQuotes);
 
   useEffect(() => {
