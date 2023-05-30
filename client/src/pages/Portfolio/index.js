@@ -36,6 +36,37 @@ const Index = () => {
           <a href='https://github.com/chanyoungcoding' target="_blank" rel="noopener noreferrer">github</a>
         </div>
 
+        <div className='main__li'>
+          <li>기본은 항상 중요하다고 생각하고 있습니다.</li>
+          <li>프론트엔드뿐만 아니라, 개발하는 모든 것을 즐깁니다.</li>
+          <li>궁금하고 모르는 부분은 어떻게든 찾아내서 알아가는 사람입니다.</li>
+        </div>
+        
+        <div className='main__skills'>
+          <h1>SKILLS</h1>
+          <ul>
+            <li className='skills__front'>
+              <h2>FrontEnd</h2>
+              <p>HTML,CSS,JS</p>
+              <p>React</p>
+              <p>TypeScript</p>
+              <p>Webpack,Babel</p>
+            </li>
+            <li className='skills__backend'>
+              <h2>BackEnd</h2>
+              <p>Express</p>
+              <p>MongoDB</p>
+              <p>JEX</p>
+            </li>
+            <li className='skills__devops'>
+              <h2>DevOps</h2>
+              <p>option</p>
+              <p>option</p>
+              <p>option</p>
+            </li>
+          </ul>
+        </div>
+
       </div>
     </motion.div>
   );

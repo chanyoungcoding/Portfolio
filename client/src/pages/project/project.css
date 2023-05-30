@@ -1,0 +1,62 @@
+.scrollable-container {
+  height: 100vh;
+  overflow-x: scroll;
+  white-space: nowrap;
+  cursor: grab;
+  display: flex;
+}
+
+.scrollable-container:active {
+  cursor: grabbing;
+}
+
+.content {
+  padding: 0 50px;
+  display: flex;
+  align-items: center;
+}
+
+.box {
+  width: 350px;
+  height: 350px;
+  display: flex;
+  box-shadow: 5px 8px 12px -5px rgb(152, 152, 152);
+}
+
+.box:nth-child(2n-1) {
+  position: relative;
+  top: -174px;
+}
+
+
+.box:nth-child(2n) {
+  position: relative;
+  top: 174px;
+}
+
+
+.scrollable-container::-webkit-scrollbar {
+  display: none;
+}
+
+.content .box:nth-child(1) {
+  background-color: #4ABF98;
+}
+.content .box:nth-child(2) {
+  background-color: #482E8C;
+}
+.content .box:nth-child(3) {
+  background-color: #0C88A0;
+}
+.content .box:nth-child(4) {
+  background-color: #707070;
+}
+.content .box:nth-child(5) {
+  background-color: #CC372B;
+}
+.content .box:nth-child(6) {
+  background-color: #455484;
+}
+.content .box:nth-child(7) {
+  background-color: #CCB12B;
+}

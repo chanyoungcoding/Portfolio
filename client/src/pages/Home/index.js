@@ -66,9 +66,9 @@ const Index = () => {
             ease: [0, 0.71, 0.2, 1.01]
           }}
         >
-          <Rhombus num={0} />
-          <Rhombus num={1} />
-          <Rhombus num={2} />
+          <Rhombus num={0} link={'/project'} />
+          <Rhombus num={1} link={'/portfolio'} />
+          <Rhombus num={2} link={'/portfolio'} />
         </motion.div>
       </div>
     </motion.div>

@@ -1,7 +1,6 @@
 .portfolio {
   width: 1080px;
   margin: 0 auto;
-  background-color: antiquewhite;
   color: black;
 }
 
@@ -41,4 +40,34 @@
 
 .main__introURL a:nth-child(1) {
   padding-left: 0;
+}
+
+.main__li {
+  border-left: 3px solid #9BCBFF;
+  padding: 15px;
+}
+
+.main__li li {
+  padding-bottom: 20px;
+}
+
+.main__li li:nth-child(3) {
+  padding-bottom: 0;
+}
+
+.main__skills  h1 {
+  color: #9BCBFF;
+  font-weight: 600;
+  font-size: 30px;
+  padding-top: 30px;
+}
+
+.main__skills ul li h2 {
+  font-weight: 500;
+  margin: 20px 0;
+}
+
+.main__skills ul li p {
+  margin-left: 30px;
+  margin-bottom: 15px;
 }
