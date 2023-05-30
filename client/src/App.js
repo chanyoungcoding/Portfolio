@@ -1,8 +1,7 @@
-import './App.css';
 import {Route, Routes} from 'react-router-dom';
+import { RandomNumberProvider } from './contexts/randomNumber';
 import Home from './pages/Home';
 import Portfolio from './pages/Portfolio';
-import { RandomNumberProvider } from './contexts/randomNumber';
 import Project from './pages/project';
 
 
