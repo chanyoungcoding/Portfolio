@@ -4,59 +4,74 @@
   white-space: nowrap;
   cursor: grab;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .scrollable-container:active {
   cursor: grabbing;
 }
 
-.content {
-  padding: 0 50px;
+.content, 
+.content__last {
   display: flex;
-  align-items: center;
+}
+
+.content a, 
+.content__last a {
+  margin: 0 175px;
+  color: black;
+}
+
+.content__last {
+  margin:  0 350px;
 }
 
 .box {
+  position: relative;
   width: 350px;
   height: 350px;
   display: flex;
   box-shadow: 5px 8px 12px -5px rgb(152, 152, 152);
 }
 
-.box:nth-child(2n-1) {
-  position: relative;
-  top: -174px;
+.box__out {
+  width: 350px;
+  height: 350px;
+  background-color: #455484;
 }
 
-
-.box:nth-child(2n) {
-  position: relative;
-  top: 174px;
+.hovered {
+  transform: translateX(250px);
+  transition: all 1s;
 }
 
+.hoveredd {
+  transition: all 1s;
+}
 
 .scrollable-container::-webkit-scrollbar {
   display: none;
 }
 
-.content .box:nth-child(1) {
+.content a:nth-child(1) {
   background-color: #4ABF98;
 }
-.content .box:nth-child(2) {
+.content a:nth-child(2) {
   background-color: #482E8C;
 }
-.content .box:nth-child(3) {
+.content a:nth-child(3) {
   background-color: #0C88A0;
 }
 .content .box:nth-child(4) {
   background-color: #707070;
 }
-.content .box:nth-child(5) {
+.content__last a:nth-child(1) {
   background-color: #CC372B;
 }
-.content .box:nth-child(6) {
+.content__last a:nth-child(2) {
   background-color: #455484;
 }
-.content .box:nth-child(7) {
+.content__last a:nth-child(3) {
   background-color: #CCB12B;
 }

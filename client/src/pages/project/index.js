@@ -7,6 +7,9 @@ const Index = () => {
   const [isDragging, setIsDragging] = useState(false);
   const [startX, setStartX] = useState(null);
   const [scrollLeft, setScrollLeft] = useState(0);
+  
+  //마우스 호버
+  const [isHovered, setIsHovered] = useState(false);
 
   const handleMouseLeave = () => {
     setIsDragging(false);
@@ -30,6 +33,14 @@ const Index = () => {
     containerRef.current.scrollLeft = scrollLeft - walk;
   };
 
+  const hoverMouseEnter = () => {
+    setIsHovered(true);
+  };
+
+  const hoverMouseLeave = () => {
+    setIsHovered(false);
+  };
+
   return (
     <motion.div
       initial={{ opacity: 0, y: 1000}}
@@ -46,13 +57,23 @@ const Index = () => {
       onMouseLeave={handleMouseLeave}
     >
       <div className="content">
-        <div className="box">good</div>
-        <div className="box">good</div>
-        <div className="box">good</div>
-        <div className="box">good</div>
-        <div className="box">good</div>
-        <div className="box">good</div>
-        <div className="box">good</div>
+        <a href="/">
+          <div
+            className="box"
+            onMouseEnter={hoverMouseEnter}
+            onMouseLeave={hoverMouseLeave}
+          >
+            <div className={`box__out ${isHovered ? 'hovered' : 'hoveredd'}`}></div>
+          </div>
+        </a>
+        <a href="/"><div className="box">good</div></a>
+        <a href="/"><div className="box">good</div></a>
+      </div>
+      <div className="content__last">
+        <a href="/"><div className="box">good</div></a>
+        <a href="/"><div className="box">good</div></a>
+        <a href="/"><div className="box">good</div></a>
+
       </div>
     </motion.div>
   );
