@@ -58,15 +58,21 @@ const Index = () => {
     >
       <div className="content">
         <a href="/">
-          <div
-            className="box"
+          <div className="box"
             onMouseEnter={hoverMouseEnter}
             onMouseLeave={hoverMouseLeave}
           >
             <div className={`box__out ${isHovered ? 'hovered' : 'hoveredd'}`}></div>
           </div>
         </a>
-        <a href="/"><div className="box">good</div></a>
+        <a href="/">
+          <div className="box"
+            onMouseEnter={hoverMouseEnter}
+            onMouseLeave={hoverMouseLeave}
+          >
+            <div className={`box__out ${isHovered ? 'hovered' : 'hoveredd'}`}></div>
+          </div>
+        </a>
         <a href="/"><div className="box">good</div></a>
       </div>
       <div className="content__last">
