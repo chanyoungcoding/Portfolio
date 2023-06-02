@@ -37,6 +37,7 @@
 
 /* 각 박스 */
 
+
 .box {
   position: relative;
   width: 350px;
@@ -48,15 +49,53 @@
 .box__out {
   width: 350px;
   height: 350px;
-  background-color: #455484;
 }
 
-.hovered {
+.hovered__0 {
   transform: translateX(250px);
   transition: all 1s;
 }
+.hovered__back__0 {
+  transition: all 1s;
+}
 
-.hoveredd {
+.hovered__1 {
+  transform: translateX(250px);
+  transition: all 1s;
+}
+.hovered__back__1 {
+  transition: all 1s;
+}
+
+.hovered__2 {
+  transform: translateX(250px);
+  transition: all 1s;
+}
+.hovered__back__2 {
+  transition: all 1s;
+}
+
+.hovered__3 {
+  transform: translateX(250px);
+  transition: all 1s;
+}
+.hovered__back__3 {
+  transition: all 1s;
+}
+
+.hovered__4 {
+  transform: translateX(250px);
+  transition: all 1s;
+}
+.hovered__back__4 {
+  transition: all 1s;
+}
+
+.hovered__5 {
+  transform: translateX(250px);
+  transition: all 1s;
+}
+.hovered__back__5 {
   transition: all 1s;
 }
 
@@ -64,21 +103,55 @@
 .content a:nth-child(1) {
   background-color: #4ABF98;
 }
+
+.content a:nth-child(1) .box__out {
+  background-color: #4ABF98;
+}
+
 .content a:nth-child(2) {
   background-color: #482E8C;
 }
+
+.content a:nth-child(2) .box__out {
+  background-color: #482E8C;
+}
+
 .content a:nth-child(3) {
   background-color: #0C88A0;
 }
+
+.content a:nth-child(3) .box__out {
+  background-color: #0C88A0;
+}
+
 .content .box:nth-child(4) {
   background-color: #707070;
 }
+
+.content a:nth-child(4) .box__out {
+  background-color: #707070;
+}
+
 .content__last a:nth-child(1) {
   background-color: #CC372B;
 }
+
+.content__last a:nth-child(1) .box__out {
+  background-color: #CC372B;
+}
+
 .content__last a:nth-child(2) {
   background-color: #455484;
 }
+
+.content__last a:nth-child(2) .box__out {
+  background-color: #455484;
+}
+
 .content__last a:nth-child(3) {
+  background-color: #CCB12B;
+}
+
+.content__last a:nth-child(3) .box__out {
   background-color: #CCB12B;
 }
