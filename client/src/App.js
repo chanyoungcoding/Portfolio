@@ -2,8 +2,8 @@ import {Route, Routes} from 'react-router-dom';
 import { RandomNumberProvider } from './contexts/randomNumber';
 import Home from './pages/Home';
 import Portfolio from './pages/Portfolio';
-import Project from './pages/project';
-
+import Project from './pages/Project';
+import Declaration from './pages/Declaration';
 
 function App() {
   
@@ -13,7 +13,8 @@ function App() {
         <Routes>
           <Route index element={<Home />} />
           <Route path='/portfolio' element={<Portfolio />} />
-          <Route path='/project' element={<Project/>} />
+          <Route path='/project' element={<Project />} />
+          <Route path='/declaration' element={<Declaration />} />
         </Routes>
       </RandomNumberProvider>
     </div>

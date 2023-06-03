@@ -68,7 +68,7 @@ const Index = () => {
         >
           <Rhombus num={0} link={'/project'} />
           <Rhombus num={1} link={'/portfolio'} />
-          <Rhombus num={2} link={'/portfolio'} />
+          <Rhombus num={2} link={'/declaration'} />
         </motion.div>
       </div>
     </motion.div>
