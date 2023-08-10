@@ -46,15 +46,17 @@ const Index = () => {
       onMouseMove={handleMouseMove}
       onMouseLeave={handleMouseLeave}
     >
-      <div className="content">
-        <ProjectBox num={0} />
-        <ProjectBox num={1} />
-        <ProjectBox num={2} />
-      </div>
-      <div className="content__last">
-        <ProjectBox num={3} />
-        <ProjectBox num={4} />
-        <ProjectBox num={5} />
+      <div className="container__inner">
+        <div className="content">
+          <ProjectBox num={0} />
+          <ProjectBox num={1} />
+          <ProjectBox num={2} />
+        </div>
+        <div className="content__last">
+          <ProjectBox num={3} />
+          <ProjectBox num={4} />
+          <ProjectBox num={5} />
+        </div>
       </div>
     </motion.div>
   );

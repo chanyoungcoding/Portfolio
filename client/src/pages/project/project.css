@@ -26,10 +26,10 @@
 
 .content a, 
 .content__last a {
-  margin: 0 175px;
+  margin: 0 200px;
   color: black;
 }
 
 .content__last {
-  margin:  0 350px;
+  margin:  0 400px;
 }
