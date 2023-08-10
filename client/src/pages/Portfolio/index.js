@@ -2,6 +2,7 @@ import React from 'react';
 import './portfolio.css'
 import { motion } from 'framer-motion';
 
+
 const Index = () => {
   return (
     <motion.div

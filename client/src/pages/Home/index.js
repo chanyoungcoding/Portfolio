@@ -13,7 +13,6 @@ const Index = () => {
       className="Home"
       initial={{ opacity: 0, y: 1000 }}
       animate={{opacity:1, y: 0}}
-      exit={{ opacity: 0, y: 1000 }}
       transition={{
         duration: .8
       }}

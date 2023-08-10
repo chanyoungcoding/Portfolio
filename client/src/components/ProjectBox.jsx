@@ -1,7 +1,12 @@
+/* 
+마우스 위치에 따라 css 적용 ,
+프로젝트의 포트폴리오 박스 부분
+*/
+
 import { useState } from 'react';
+import './ProjectBox.css'
 
 export default function ProjectBox({num}) {
-
   const [hoveredStates, setHoveredStates] = useState(false);
 
   const handleHover = (isHovered) => {
