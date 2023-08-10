@@ -6,7 +6,7 @@
 import { useState } from 'react';
 import './ProjectBox.css'
 
-export default function ProjectBox({num}) {
+export default function ProjectBox({num, introduce, secondIntro , main, date}) {
   const [hoveredStates, setHoveredStates] = useState(false);
 
   const handleHover = (isHovered) => {
@@ -22,12 +22,16 @@ export default function ProjectBox({num}) {
             onMouseEnter={() => handleHover(true)}
             onMouseLeave={() => handleHover(false)}
           >
-          <div className='box__center'></div>
-          <div className='box__center2'></div>
-          <div className='box__center3'></div>
-          <div className={`box__out ${hoveredStates ? `hovered__${num}` : `hovered__back__${num}`}`}>
-            <p>hello</p>
-          </div>
+            <div className='box__center'></div>
+            <div className='box__center2'></div>
+            <div className='box__center3'></div>
+            <div className={`box__out ${hoveredStates ? `hovered__${num}` : `hovered__back__${num}`}`}>
+            <p>{introduce}</p>
+            <p>/</p>
+            <p>{ secondIntro }</p>
+            <h1>{main}</h1>
+            <p className='box__date'>{ date }</p>
+            </div>
           
           </div>
         </a>

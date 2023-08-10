@@ -49,7 +49,25 @@
   height: 400px;
   border-radius: 10px;
   box-shadow: 5px 0px 12px -5px rgb(152, 152, 152);
+}
 
+.box__out p {
+  color: #ffffff;
+  font-weight: 300;
+  font-size: 15px;
+  padding: 20px 20px 1px;
+}
+
+.box__out h1 {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 40px;
+  padding: 50px 20px 10px;
+}
+
+.box__date {
+  position: absolute;
+  bottom: 20px;
 }
 
 .hovered__0 {
@@ -69,7 +87,7 @@
 }
 
 .hovered__2 {
-  transform: translateX(200px);
+  transform: translateX(100px);
   transition: all 2s;
 }
 .hovered__back__2 {
@@ -134,7 +152,7 @@
 }
 
 .content__last a:nth-child(1) {
-  background-color: #CC372B;
+  background-color: #da5950;
 }
 
 .content__last a:nth-child(1) .box__out {

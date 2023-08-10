@@ -48,7 +48,13 @@ const Index = () => {
     >
       <div className="container__inner">
         <div className="content">
-          <ProjectBox num={0} />
+          <ProjectBox
+            num={0}
+            introduce="This is CampSite"
+            secondIntro="Use Node, MongoDB, JSX..."
+            main="Chan-Camp"
+            date="2023-08-20"
+          />
           <ProjectBox num={1} />
           <ProjectBox num={2} />
         </div>
