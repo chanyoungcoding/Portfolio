@@ -6,7 +6,7 @@ import Project from './pages/Project';
 import Declaration from './pages/Declaration';
 
 function App() {
-  
+  // 라우터 기능 추가
   return (
     <div className='main'>
       <RandomNumberProvider>
