@@ -6,7 +6,7 @@
 import { useState } from 'react';
 import './ProjectBox.css'
 
-export default function ProjectBox({num, introduce = "I'm working on it", secondIntro = "I'm working..", main = "Chan coding", date = "1998-06-04"}) {
+export default function ProjectBox({num, introduce = "I'm working on it", secondIntro = "I'm working..", main = "Chan coding", date = "1998-06-04", url = "/portfolio"}) {
   const [hoveredStates, setHoveredStates] = useState(false);
 
   const handleHover = (isHovered) => {
@@ -17,7 +17,7 @@ export default function ProjectBox({num, introduce = "I'm working on it", second
 
   return (
     <>
-        <a className='box__a' href='/portfolio'>
+        <a className='box__a' href={url}>
           <div className='box'
             onMouseEnter={() => handleHover(true)}
             onMouseLeave={() => handleHover(false)}

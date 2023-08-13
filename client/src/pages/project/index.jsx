@@ -8,6 +8,7 @@ const Index = () => {
   const [isDragging, setIsDragging] = useState(false);
   const [startX, setStartX] = useState(null);
   const [scrollLeft, setScrollLeft] = useState(0);
+  
 
   const handleMouseLeave = () => {
     setIsDragging(false);
@@ -54,6 +55,7 @@ const Index = () => {
             secondIntro="Use Node, MongoDB, JSX..."
             main="Chan-Camp"
             date="2023-08-20"
+            url="/campproject"
           />
           <ProjectBox num={1} />
           <ProjectBox num={2} />
