@@ -62,9 +62,9 @@ const Index = () => {
             </li>
             <li className='skills__devops'>
               <h2>DevOps</h2>
-              <p>option</p>
-              <p>option</p>
-              <p>option</p>
+              <p>Recoil</p>
+              <p>React-Query</p>
+              <p>React-router</p>
             </li>
           </ul>
         </div>

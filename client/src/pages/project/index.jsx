@@ -51,11 +51,11 @@ const Index = () => {
         <div className="content">
           <ProjectBox
             num={0}
-            introduce="This is CampSite"
-            secondIntro="Use Node, MongoDB, JSX..."
-            main="Chan-Camp"
-            date="2023-08-20"
-            url="/campproject"
+            introduce="This is CoffeeSite"
+            secondIntro="Use React, Node, MongoDB, TS..."
+            main="Chans-Coffee"
+            date="2023-11-20"
+            url="/coffeeproject"
           />
           <ProjectBox num={1} />
           <ProjectBox num={2} />
