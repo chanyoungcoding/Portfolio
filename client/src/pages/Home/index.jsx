@@ -1,13 +1,17 @@
-import React,{useContext} from 'react';
+import React from 'react';
 import { motion } from "framer-motion"
 import './home.css';
 import Rhombus from '../../components/Rhombus';
 import Navbar from '../../components/Navbar';
-import { RandomNumberContext } from '../../contexts/randomNumber';
 import TypeIt from 'typeit-react';
+import { useRecoilValue } from 'recoil';
+import { randomQuotes } from '../../recoil/RandomQuotes';
 
 const Index = () => {
-  const {randomNumber, wiseSaying} = useContext(RandomNumberContext);
+
+  const Quotes = useRecoilValue(randomQuotes);
+  const random = Math.floor(Math.random() * 5) + 1
+
   return (
     <motion.div
       className="Home"
@@ -45,8 +49,12 @@ const Index = () => {
       <div className="Home__main">
         <div className="Home__h1">
           <h1>
-            {wiseSaying[randomNumber]}
+            {Quotes[random]}
           </h1>
+        </div>
+        
+        <div>
+          
         </div>
         
         <div>

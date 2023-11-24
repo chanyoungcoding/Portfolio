@@ -1,5 +1,4 @@
 import {Route, Routes} from 'react-router-dom';
-import { RandomNumberProvider } from './contexts/randomNumber';
 import Home from './pages/Home';
 import Portfolio from './pages/Portfolio';
 import Project from './pages/Project';
@@ -10,7 +9,6 @@ function App() {
   // 라우터 기능 추가
   return (
     <div className='main'>
-      <RandomNumberProvider>
         <Routes>
           <Route index element={<Home />} />
           <Route path='/portfolio' element={<Portfolio />} />
@@ -18,7 +16,6 @@ function App() {
           <Route path='/declaration' element={<Declaration />} />
           <Route path='/coffeeproject' element={<CoffeeProject />} />
         </Routes>
-      </RandomNumberProvider>
     </div>
   );
 }
