@@ -1,3 +1,10 @@
+h1 {
+  color: #9BCBFF;
+  font-weight: 600;
+  font-size: 30px;
+  padding-top: 30px;
+}
+
 .portfolio {
   width: 1080px;
   margin: 0 auto;
@@ -55,11 +62,25 @@
   padding-bottom: 0;
 }
 
-.main__skills  h1 {
-  color: #9BCBFF;
-  font-weight: 600;
-  font-size: 30px;
-  padding-top: 30px;
+.main__education h2 {
+  margin: 15px 0px;
+}
+
+.main__education h2 span {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.main__education li {
+  margin-bottom: 15px;
+}
+
+.main__education li::marker {
+  content: "🔹"; 
+  color: #3498db; 
+  font-size: 1.2em; 
+  font-weight: bold; 
+  margin-right: 15px; 
 }
 
 .main__skills ul li h2 {
@@ -71,3 +92,33 @@
   margin-left: 30px;
   margin-bottom: 15px;
 }
+
+.main__experience h2 {
+  margin: 15px 0px;
+}
+
+.main__experience h2 span {
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.main__experience h3 {
+  display: inline-block;
+  font-weight: bold;
+  padding: 10px;
+  background: rgb(111,197,255);
+  background: linear-gradient(90deg,
+    rgba(111,197,255,1) 0%,
+    rgba(214,238,253,1) 70%, 
+    rgba(235,243,248,1) 100%
+  );
+}
+
+.main__experience p {
+  padding: 40px 0px;
+  font-weight: 400;
+  line-height: 22px;
+  border-bottom: 2px solid #3498db;
+}
+

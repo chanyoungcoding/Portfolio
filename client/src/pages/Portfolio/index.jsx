@@ -43,6 +43,13 @@ const Index = () => {
           <li>궁금하고 모르는 부분은 어떻게든 찾아내서 알아가는 사람입니다.</li>
           <li>항상 긍정적이고, 소통하는 것을 좋아합니다.</li>
         </div>
+
+        <div className="main__education">
+          <h1>EDUCATION</h1>
+          <h2><span>대진대학교</span> &#40;2018.3 ~ 2024.2&#41;</h2>
+          <li>경영학과, 컴퓨터 공학과 졸업</li>
+          <li>Google Developer Student Club 활동 중</li>
+        </div>
         
         <div className='main__skills'>
           <h1>SKILLS</h1>
@@ -69,6 +76,26 @@ const Index = () => {
           </ul>
         </div>
 
+        <div className="main__experience">
+          <h1>WORK EXPERIENCE</h1>
+          <h2><span>chans coffee</span> &#40;2023.10 ~ 2023.11&#41;</h2>
+          <h3>전국 커피 매점 위치와 커피의 영양소 및 정보 제공 사이트</h3>
+          <p>
+            현재 FE 개발을 혼자 진행함으로서 프론트 및 백의 
+            전체 구조 설계부터<br/> 개발 및 테스트 외 서버 배포까지
+            모든 작업을 책임지고 있습니다.
+          </p>
+        </div>
+        <div className="main__experience">
+          <h1>WORK EXPERIENCE</h1>
+          <h2><span>chans coffee</span> &#40;2023.10 ~ 2023.11&#41;</h2>
+          <h3>전국 커피 매점 위치와 커피의 영양소 및 정보 제공 사이트</h3>
+          <p>
+            현재 FE 개발을 혼자 진행함으로서 프론트 및 백의 
+            전체 구조 설계부터<br/> 개발 및 테스트 외 서버 배포까지 FE관련 
+            모든 작업을 책임지고 있습니다.
+          </p>
+        </div>
       </div>
     </motion.div>
   );
