@@ -28,7 +28,7 @@ const Index = () => {
     if (!isDragging) return;
     event.preventDefault();
     const x = event.pageX - containerRef.current.offsetLeft;
-    const walk = (x - startX) * 1; // 스크롤 속도 조절 (값을 조정하여 스크롤 속도를 조절할 수 있습니다.)
+    const walk = (x - startX) * 1; 
     containerRef.current.scrollLeft = scrollLeft - walk;
   };
 
@@ -57,11 +57,18 @@ const Index = () => {
             date="2023-11-20"
             url="/coffeeproject"
           />
-          <ProjectBox num={1} />
+          <ProjectBox num={1}/>
           <ProjectBox num={2} />
         </div>
         <div className="content__last">
-          <ProjectBox num={3} />
+          <ProjectBox 
+            num={3}
+            introduce="This is EpetProject"
+            secondIntro="Use Tsx, Node, React-query..."
+            main="E-pet"
+            date="2023-12-24"
+            url="/epetproject" 
+          />
           <ProjectBox num={4} />
           <ProjectBox num={5} />
         </div>

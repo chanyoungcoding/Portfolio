@@ -1,5 +1,7 @@
-import './CoffeeProject.css'
 import { motion } from 'framer-motion';
+
+import './CoffeeProject.css'
+
 import coffeeMain from '../../public/imgs/coffee/chanscoffeeMain.PNG';
 import coffeeMap from '../../public/imgs/coffee/chanscoffeeMap.PNG';
 import coffeeDetail from '../../public/imgs/coffee/chanscoffeeDetail.PNG';

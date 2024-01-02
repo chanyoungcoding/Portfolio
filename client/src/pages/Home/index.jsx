@@ -52,11 +52,6 @@ const Index = () => {
             {Quotes[random]}
           </h1>
         </div>
-        
-        <div>
-          
-        </div>
-        
         <div>
           <h1 className='Home__select'>
             SELECT
