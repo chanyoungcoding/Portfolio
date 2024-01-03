@@ -6,6 +6,15 @@ import { SiMongodb } from "react-icons/si";
 
 import OpetTitleImg from '../../public/imgs/ePet/opetTitle.png';
 import OpetMainImg from '../../public/imgs/ePet/opetMain.png';
+import LiImg from '../../public/imgs/ePet/liImg.png';
+import SystemArchitecture from '../../public/imgs/ePet/systemArchitecture.png';
+
+import PhoneImg1 from '../../public/imgs/ePet/phone1.png';
+import PhoneImg2 from '../../public/imgs/ePet/phone2.png';
+import PhoneImg3 from '../../public/imgs/ePet/phone3.png';
+import PhoneImg4 from '../../public/imgs/ePet/phone4.png';
+import PhoneImg5 from '../../public/imgs/ePet/phone5.png';
+
 import { BiLogoTypescript } from "react-icons/bi";
 
 const OpetMain = styled(motion.div)`
@@ -36,6 +45,67 @@ const OpetMiddleBox = styled.div`
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 `
 const OpetBottomBox = styled.div`
+  position: relative;
+  margin-top: 30px;
+  height: 1000px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  h1 {
+    display: inline-block;
+    padding: 10px 70px 20px 10px;
+    border-bottom: 3px solid #C4ABF2;
+  }
+  .box_1 {
+    .phone1 {
+      position: absolute;
+      left: -150px;
+    }
+  }
+  .box_2 {
+    position: absolute;
+    right: 0;
+    h2 {
+      position: absolute;
+      right: 80px;
+      font-size: 20px;
+      span {
+        font-weight: bold;
+      }
+    }
+  }
+  .box_3 {
+    position: absolute;
+    top: 250px;
+    h2 {
+      position: absolute;
+      bottom: 100px;
+      margin-left: 30px;
+      font-size: 20px;
+      span {
+        font-weight: bold;
+      }
+    }
+  }
+  .box_4 {
+    position: absolute;
+    bottom: 90px;
+    right: -20px;
+    h2 {
+      position: absolute;
+      left: -230px;
+      bottom: 30px;
+      padding: 15px;
+      background: linear-gradient(90deg, #515ada 0%, #efd5ff 100%);
+      border-radius: 15px;
+      font-size: 20px;
+      line-height: 24px;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    }
+  }
+  .box_5 {
+    position: absolute;
+    bottom: 0;
+    right: -20px;
+  }
 `
 
 const OpetTopLeft = styled.div`
@@ -143,13 +213,80 @@ const OpetMiddleTop = styled.div`
 `
 
 const OpetMiddleMiddle = styled.div`
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin-top: 30px;
   .middle_left {
-
+    p {
+      margin-left: 10px;
+      font-size: 20px;
+      line-height: 25px;
+    }
+    span {
+      font-weight: bold;
+    }
+    .systemarchitecture {
+      position: absolute;
+      margin-top: 50px;
+      left: 10px;
+      color: #5E5E5E;
+      font-weight: bold;
+      img {
+        width: 500px;
+        height: 300px;
+        object-fit: cover;
+        margin-top: 10px;
+        border: 4px solid black;
+        border-radius: 15px;
+      }
+    }
   }
   .middle_right {
-
+    position: absolute;
+    right: 0;
+    top: -110px;
+    padding: 0px 50px 30px 30px;
+    border-bottom: 1px solid #C4ABF2;
+    .percent {
+      display: flex;
+      align-items: center;
+      margin: 10px;
+      font-weight: bold;
+      div {
+        width: 150px;
+        height: 10px;
+        margin: 0px 15px;
+        border-radius: 20px;
+        background-color: #C4ABF2;
+      }
+    }
+    h1 {
+      font-size: 22px;
+      margin-bottom: 10px;
+    }
+    ol {
+      font-weight: bold;
+      list-style-image: url(${LiImg});
+    }
   }
 `
+
+const OpetMiddleBottom = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  margin-top: 70px;
+  padding: 10px;
+  h2 {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  p {
+    margin: 5px 0px;
+  }
+`
+
 const Test = () => {
   return ( 
     <OpetMain
@@ -193,7 +330,7 @@ const Test = () => {
             </div>
             <div className='top_right'>
               <a href="javascripts:void(0)">프로젝트 구경하기&raquo;&raquo;</a>
-              <a href="javascripts:void(0)">깃허브 바로가기&raquo;&raquo;</a>
+              <a href="https://github.com/chanyoungcoding/MyPetProject">깃허브 바로가기&raquo;&raquo;</a>
               <p>강아지 정보 사이트</p>
             </div>
           </OpetMiddleTop>
@@ -201,16 +338,75 @@ const Test = () => {
             <div className="middle_left">
               <p>
                 다양한 <span>강아지 정보</span>를 확인하고 <span>저장</span>하는 공간<br/>
-                내 근처의 강아지 병원이나 호텔을 볼 수 있는 지도까지!<br/>
-                강아지 정보 사이트
+                강아지 병원이나 호텔을 볼 수 있는 지도까지!<br/>
+                <span>강아지 정보 사이트</span>
               </p>
+              <div className="systemarchitecture">
+                <p>시스템 아키텍처</p>
+                <img src={SystemArchitecture} alt="#"/>
+              </div>
             </div>
             <div className="middle_right">
-
+              <div className="percent">
+                <p>기획</p>
+                <div></div>
+                <p>100%</p>
+              </div>
+              <div className="percent">
+                <p>개발</p>
+                <div></div>
+                <p>100%</p>
+              </div>
+              <h1>기능 구현</h1>
+              <ol>
+                <li>회원가입/로그인/좋아요 기능</li>
+                <li>전체적인 디자인 구현</li>
+                <li>전체적인 아이디어 구현</li>
+                <li>카카오 맵을 활용한 지도 표시</li>
+                <li>Hooks 를 이용한 성능 최적화</li>
+              </ol>
             </div>
           </OpetMiddleMiddle>
+          <OpetMiddleBottom>
+            <h1>개발환경</h1>
+            <h2>Client</h2>
+            <p>HTML&#09;/&#09;CSS&#09;/&#09;Javascript</p>
+            <p>React&#09;/&#09;TypeScript&#09;</p>
+            <p>React-query&#09;/&#09;react-router-dom&#09;/&#09;react-spring</p>
+            <p>react-intersection-observer&#09;/&#09;scss&#09;/&#09;axios</p>
+            <p>styled-components</p>
+            <h2>Server</h2>
+            <p>Node&#09;/&#09;MongoDB</p>
+            <p>express&#09;/&#09;cors&#09;/&#09;jsonwebtoken</p>
+            <p>dotenv&#09;/&#09;passport</p>
+          </OpetMiddleBottom>
         </OpetMiddleBox>
-        <OpetBottomBox></OpetBottomBox>
+        <OpetBottomBox>
+          <h1>사이트의 모습</h1>
+          <div className="box_1">
+            <img src={PhoneImg1} alt="#" className='phone1' />
+          </div>
+          <div className="box_2">
+            <h2><span>병원</span>과 <span>호텔</span>을 <span>한눈에!!</span></h2>
+            <img src={PhoneImg2} alt="#" className='phone2' />
+          </div>
+          <div className="box_3">
+            <h2>내 강아지와<br/> <span>함께한 시간</span>까지</h2>
+            <img src={PhoneImg3} alt="#" className='phone3' />
+          </div>
+          <div className="box_4">
+            <h2>
+              그 외에도 강아지의 정보를<br/> 
+              손쉽게 확인하고<br/>
+              강아지의 건강 음식들도<br/> 
+              저장할 수 있는 마이 페이지
+            </h2>
+            <img src={PhoneImg4} alt="#" className='phone4' />
+          </div>
+          <div className="box_5">
+            <img src={PhoneImg5} alt="#" className='phone5' />
+          </div>
+        </OpetBottomBox>
       </OpetContainer>
     </OpetMain>
   );
