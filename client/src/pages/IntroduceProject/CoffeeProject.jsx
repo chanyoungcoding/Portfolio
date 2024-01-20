@@ -100,6 +100,17 @@ const OpetMiddle = styled.div`
         font-size: 20px;
         padding: 10px 20px;
       }
+      .gotosite {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        margin-right: 50px;
+        a {
+          color: black;
+          text-decoration: none;
+          padding: 10px;
+        }
+      }
     }
   }
 `
@@ -158,13 +169,17 @@ export default function CoffeeProject() {
               <div className='introskills'>
                 <h4>Skills</h4>
                 <h5>Client</h5>
-                <p>React</p>
+                <p>React, TypeScript</p>
                 <p>React-query, recoil</p>
                 <p>Styled-components, Scss</p>
                 <p></p>
                 <h5>Server</h5>
                 <p>Node, Express</p>
                 <p>MongoDB</p>
+                <div className='gotosite'>
+                  <a href="https://chanscoffee.netlify.app">구경하기✨✨</a>
+                  <a href="https://github.com/chanyoungcoding/Coffee-site">깃허브✨✨</a>
+                </div>
               </div>
             </div>
           </div>
