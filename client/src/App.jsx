@@ -5,7 +5,6 @@ import Project from './pages/Project';
 import Declaration from './pages/Declaration';
 import CoffeeProject from './pages/IntroduceProject/CoffeeProject';
 import EpetProject from './pages/IntroduceProject/EpetProject';
-import Test from './pages/IntroduceProject/Test';
 
 function App() {
   // 라우터 기능 추가
@@ -18,7 +17,6 @@ function App() {
           <Route path='/declaration' element={<Declaration/>}/>
           <Route path='/coffeeproject' element={<CoffeeProject/>}/>
           <Route path='/epetproject' element={<EpetProject/>}/>
-          <Route path='/test' element={<Test/>}/>
         </Routes>
     </div>
   );

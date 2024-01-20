@@ -120,11 +120,11 @@
 
 /* box 각 부분별 색 */
 .content a:nth-child(1) {
-  background-color: #a3d7c6;
+  background-color: #92625C;
 }
 
 .content a:nth-child(1) .box__out {
-  background-color: #4ABF98;
+  background-color: #764f4a;
 }
 
 .content a:nth-child(2) {
@@ -152,11 +152,11 @@
 }
 
 .content__last a:nth-child(1) {
-  background-color: #d9766f;
+  background-color: #cbb8ef;
 }
 
 .content__last a:nth-child(1) .box__out {
-  background-color: #CC372B;
+  background-color: #a98ae2;
 }
 
 .content__last a:nth-child(2) {
