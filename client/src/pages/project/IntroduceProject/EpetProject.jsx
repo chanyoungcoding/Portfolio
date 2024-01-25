@@ -51,7 +51,9 @@ const OpetBottomBox = styled.div`
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
   h1 {
     display: inline-block;
-    padding: 10px 70px 20px 10px;
+    margin-top: 10px;
+    padding: 10px 30px 20px 10px;
+    font-size: 24px;
     border-bottom: 3px solid #C4ABF2;
   }
   .box_1 {
@@ -150,6 +152,7 @@ const OpetTopRight = styled.div`
   background-color: #C4ABF2;
   clip-path: polygon(57% 0, 100% 0%, 100% 100%, 40% 100%);
   h1 {
+    margin-top: 50px;
     font-size: 20px;
   }
   h2 {

@@ -10,6 +10,7 @@ const CoffeeMain = styled(motion.div)`
   background-color: #6C3A31;
   padding: 30px;
   h1 {
+    font-size: 30px;
     color: black;
   }
 `

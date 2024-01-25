@@ -8,7 +8,11 @@ const MainIntroContainer = styled.div`
     background-color: black;
     color: white;
     border-radius: 3px;
-    padding: 0 4px;
+    padding: 2px 4px;
+    transition: all 0.5s;
+    &:hover {
+      padding: 3px 5px;
+    }
   }
 `
 

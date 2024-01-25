@@ -9,6 +9,10 @@ const MainExperienceContainer = styled.div`
       font-size: 20px;
       font-weight: bold;
       text-decoration: underline;
+      transition: all .4s;
+      &:hover {
+        color: #3498db;
+      }
     }
   }
   h3 {

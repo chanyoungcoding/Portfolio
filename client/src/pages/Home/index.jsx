@@ -27,6 +27,7 @@ const HomeBoxContainer = styled(motion.div)`
 const RhombusText = styled.h1`
   position: absolute;
   top: 180px;
+  font-size: 30px;
   color: black;
 `
 

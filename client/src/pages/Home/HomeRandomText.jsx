@@ -12,6 +12,7 @@ const HomeRandomQuotesBox = styled.div`
     transform: rotate(-90deg);
     h1 {
       font-size: 40px;
+      color: #3498db;
     }
 `
 
