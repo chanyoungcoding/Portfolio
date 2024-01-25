@@ -5,15 +5,6 @@
   color: whitesmoke;
 }
 
-.Home__intro {
-  display: block;
-  text-align: center;
-  position: relative;
-  top: 100px;
-  font-size: 30px;
-  color: #343434;
-}
-
 .container {
   display: flex;
   height: 70vh;
@@ -27,24 +18,5 @@
 
 .Home__main {
   position: relative;
-}
-
-.Home__h1 {
-  position: absolute;
-  width: 500px;
-  top: 300px;
-  left: -150px;
-  transform: rotate(-90deg);
-  font-size: 25px;
-  color: #343434;
-}
-
-.Home__select {
-  position: absolute;
-  top: 400px;
-  right: -100px;
-  transform: rotate(90deg);
-  font-size: 150px;
-  color: #DEDDDB;
 }
 
