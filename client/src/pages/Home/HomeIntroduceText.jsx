@@ -6,7 +6,7 @@ const TypeText = styled(TypeIt)`
   display: block;
   text-align: center;
   position: relative;
-  top: 100px;
+  top: 70px;
   font-size: 30px;
   color: #343434;
 `

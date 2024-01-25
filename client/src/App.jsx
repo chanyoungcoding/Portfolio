@@ -3,8 +3,8 @@ import Home from './pages/Home';
 import Portfolio from './pages/Portfolio';
 import Project from './pages/Project';
 import Declaration from './pages/Declaration';
-import CoffeeProject from './pages/IntroduceProject/CoffeeProject';
-import EpetProject from './pages/IntroduceProject/EpetProject';
+import CoffeeProject from './pages/Project/IntroduceProject/CoffeeProject';
+import EpetProject from './pages/Project/IntroduceProject/EpetProject';
 
 function App() {
   // 라우터 기능 추가

@@ -55,7 +55,7 @@ const Index = () => {
             secondIntro="Use React, Node, MongoDB, TS..."
             main="Chans-Coffee"
             date="2023-11-20"
-            url="/coffeeproject"
+            url="./IntroduceProject/coffeeproject"
           />
           <ProjectBox num={1}/>
           <ProjectBox num={2} />

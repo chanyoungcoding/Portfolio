@@ -6,6 +6,7 @@ export const randomText = atom({
     'SELECT',
     'CHOICE',
     'PROVE',
-    'POSSIBLE'
+    'POSSIBLE',
+    'SUCCESS'
   ]
 })

@@ -1,10 +1,10 @@
 import { motion } from 'framer-motion';
 import styled from 'styled-components';
 
-import introImg from '../../public/imgs/coffee/소개페이지.jpeg';
-import Img1 from '../../public/imgs/coffee/음성페이지.jpeg';
-import Img2 from '../../public/imgs/coffee/마이페이지.jpeg';
-import Img3 from '../../public/imgs/coffee/영양소페이지.jpeg';
+import introImg from '../../../public/imgs/coffee/소개페이지.jpeg';
+import Img1 from '../../../public/imgs/coffee/음성페이지.jpeg';
+import Img2 from '../../../public/imgs/coffee/마이페이지.jpeg';
+import Img3 from '../../../public/imgs/coffee/영양소페이지.jpeg';
 
 const CoffeeMain = styled(motion.div)`
   background-color: #6C3A31;

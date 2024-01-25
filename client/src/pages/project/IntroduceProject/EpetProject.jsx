@@ -4,16 +4,16 @@ import styled from "styled-components";
 import { FaReact, FaNode } from "react-icons/fa6";
 import { SiMongodb } from "react-icons/si";
 
-import OpetTitleImg from '../../public/imgs/ePet/opetTitle.png';
-import OpetMainImg from '../../public/imgs/ePet/opetMain.png';
-import LiImg from '../../public/imgs/ePet/liImg.png';
-import SystemArchitecture from '../../public/imgs/ePet/systemArchitecture.png';
+import OpetTitleImg from '../../../public/imgs/ePet/opetTitle.png';
+import OpetMainImg from '../../../public/imgs/ePet/opetMain.png';
+import LiImg from '../../../public/imgs/ePet/liImg.png';
+import SystemArchitecture from '../../../public/imgs/ePet/systemArchitecture.png';
 
-import PhoneImg1 from '../../public/imgs/ePet/phone1.png';
-import PhoneImg2 from '../../public/imgs/ePet/phone2.png';
-import PhoneImg3 from '../../public/imgs/ePet/phone3.png';
-import PhoneImg4 from '../../public/imgs/ePet/phone4.png';
-import PhoneImg5 from '../../public/imgs/ePet/phone5.png';
+import PhoneImg1 from '../../../public/imgs/ePet/phone1.png';
+import PhoneImg2 from '../../../public/imgs/ePet/phone2.png';
+import PhoneImg3 from '../../../public/imgs/ePet/phone3.png';
+import PhoneImg4 from '../../../public/imgs/ePet/phone4.png';
+import PhoneImg5 from '../../../public/imgs/ePet/phone5.png';
 
 import { BiLogoTypescript } from "react-icons/bi";
 

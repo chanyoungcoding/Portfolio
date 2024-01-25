@@ -7,7 +7,7 @@ import { randomText } from '../../recoil/RandomText';
 const HomeRandomQuotesBox = styled.div`
     position: absolute;
     width: 500px;
-    top: 300px;
+    top: 350px;
     left: -150px;
     transform: rotate(-90deg);
     h1 {
@@ -17,8 +17,8 @@ const HomeRandomQuotesBox = styled.div`
 
 const HomeRandomTextBox = styled.div`
   position: absolute;
-  top: 300px;
-  right: -100px;
+  top: 350px;
+  right: -110px;
   transform: rotate(90deg);
   h1 {
     font-size: 150px;
@@ -29,7 +29,7 @@ const HomeRandomTextBox = styled.div`
 const HomeRandomText = () => {
 
   const Quotes = useRecoilValue(randomQuotes);
-  const QuotesRandom = Math.floor(Math.random() * 6)
+  const QuotesRandom = Math.floor(Math.random() * 5)
 
   const Text = useRecoilValue(randomText);
   const TextRandom = Math.floor(Math.random() * 4);
@@ -51,4 +51,4 @@ const HomeRandomText = () => {
   )
 }
 
-export default HomeRandomText
+export default React.memo(HomeRandomText);
