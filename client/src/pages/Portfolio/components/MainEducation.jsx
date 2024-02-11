@@ -23,6 +23,9 @@ const MainEducationContainer = styled.div`
       color: #0065be;
     }
   }
+  span {
+    margin-left: 30px;
+  }
 `
 
 const MainEducation = () => {
@@ -55,6 +58,7 @@ const MainEducation = () => {
       <h2><span>대진대학교</span> &#40;2018.3 ~ 2024.2&#41;</h2>
       <p>경영학과, 컴퓨터 공학과 졸업</p>
       <h3 onClick={handleOnClick}>Google Developer Student Club 활동 중</h3>
+      <span>👈 활동보기</span>
     </MainEducationContainer>
   )
 }

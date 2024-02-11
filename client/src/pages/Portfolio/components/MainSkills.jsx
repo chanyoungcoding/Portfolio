@@ -27,13 +27,13 @@ const MainSkills = () => {
   return (
     <MainSkillsContainer>
       <h1>SKILLS</h1>
+      <h2>기술을 클릭해서 정리한 블로그를 구경해 보세요.</h2>
       <ul>
         <li className='skills__front'>
           <h2>FrontEnd</h2>
           <a href='javascript:void(0)' target='_blank'>HTML,CSS,JS</a>
-          <a href='javascript:void(0)' target='_blank'>React</a>
-          <a href='javascript:void(0)' target='_blank'>TypeScript</a>
-          <a href='javascript:void(0)' target='_blank'>Webpack,Babel</a>
+          <a href='https://velog.io/@chanyoungcoding/posts?tag=React' rel="noreferrer" target='_blank'>React</a>
+          <a href='https://velog.io/@chanyoungcoding/posts?tag=typescript' rel="noreferrer" target='_blank'>TypeScript</a>
         </li>
         <li className='skills__backend'>
           <h2>BackEnd</h2>
@@ -43,7 +43,7 @@ const MainSkills = () => {
         <li className='skills__devops'>
           <h2>DevOps</h2>
           <a href='javascript:void(0)' target='_blank'>Recoil</a>
-          <a href='javascript:void(0)' target='_blank'>React-Query</a>
+          <a href='https://velog.io/@chanyoungcoding/React-query' rel="noreferrer" target='_blank'>React-Query</a>
           <a href='javascript:void(0)' target='_blank'>React-router</a>
         </li>
       </ul>
