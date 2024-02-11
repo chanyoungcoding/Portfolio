@@ -10,6 +10,17 @@ const MainSkillsContainer = styled.div`
     margin-left: 30px;
     margin-bottom: 15px;
   }
+  a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin-left: 30px;
+    margin-bottom: 15px;
+    transition: all .5s;
+    &:hover {
+      color: #0065be;
+    }
+  }
 `
 
 const MainSkills = () => {
@@ -19,22 +30,21 @@ const MainSkills = () => {
       <ul>
         <li className='skills__front'>
           <h2>FrontEnd</h2>
-          <p>HTML,CSS,JS</p>
-          <p>React</p>
-          <p>TypeScript</p>
-          <p>Webpack,Babel</p>
+          <a href='javascript:void(0)' target='_blank'>HTML,CSS,JS</a>
+          <a href='javascript:void(0)' target='_blank'>React</a>
+          <a href='javascript:void(0)' target='_blank'>TypeScript</a>
+          <a href='javascript:void(0)' target='_blank'>Webpack,Babel</a>
         </li>
         <li className='skills__backend'>
           <h2>BackEnd</h2>
-          <p>Express</p>
-          <p>MongoDB</p>
-          <p>JEX</p>
+          <a href='javascript:void(0)' target='_blank'>Node</a>
+          <a href='javascript:void(0)' target='_blank'>MongoDB</a>
         </li>
         <li className='skills__devops'>
           <h2>DevOps</h2>
-          <p>Recoil</p>
-          <p>React-Query</p>
-          <p>React-router</p>
+          <a href='javascript:void(0)' target='_blank'>Recoil</a>
+          <a href='javascript:void(0)' target='_blank'>React-Query</a>
+          <a href='javascript:void(0)' target='_blank'>React-router</a>
         </li>
       </ul>
     </MainSkillsContainer>
