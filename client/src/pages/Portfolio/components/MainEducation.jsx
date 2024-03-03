@@ -40,14 +40,13 @@ const MainEducation = () => {
       imageWidth: 300,
       imageHeight: 250,
       imageAlt: "Custom image",
-      footer: '<a style="text-decoration: none;" href="https://sites.google.com/view/gdeveloperskorea/gdsc">어떤 클럽인지 확인해 보세요!!</a>',
       showCloseButton: true,
       confirmButtonColor: "#3085d6",
       confirmButtonText: `활동 보기`,
     })
     .then(result => {
       if (result.isConfirmed) {
-        Swal.fire("Saved!", "you saved message", "success");
+        window.open("https://sites.google.com/view/gdeveloperskorea/gdsc", "_blank");
       } 
     });
     
