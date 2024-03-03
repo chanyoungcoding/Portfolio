@@ -31,7 +31,7 @@ const RhombusText = styled.h1`
   color: black;
 `
 
-const Index = () => {
+const Home = () => {
 
   const [introText, setIntroText] = useState('');
 
@@ -75,4 +75,4 @@ const Index = () => {
   );
 };
 
-export default Index;
+export default Home;

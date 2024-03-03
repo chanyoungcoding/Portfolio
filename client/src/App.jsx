@@ -1,8 +1,8 @@
 import {Route, Routes} from 'react-router-dom';
-import Home from './pages/Home';
-import Portfolio from './pages/Portfolio';
-import Project from './pages/Project';
-import Declaration from './pages/Declaration';
+import Home from './pages/Home/Home';
+import Portfolio from './pages/Portfolio/Portfolio';
+import Project from './pages/Project/Project';
+import Declaration from './pages/Declaration/Declaration';
 import CoffeeProject from './pages/Project/IntroduceProject/CoffeeProject';
 import EpetProject from './pages/Project/IntroduceProject/EpetProject';
 

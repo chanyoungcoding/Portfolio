@@ -50,7 +50,7 @@ const PortFolioIntroURLBox = styled.div`
   }
 `
 
-const Index = () => {
+const Portfolio = () => {
   return (
     <PortFolioContainer
       initial={{ opacity: 0, y: 1000}}
@@ -91,4 +91,4 @@ const Index = () => {
   );
 };
 
-export default Index;
+export default Portfolio;

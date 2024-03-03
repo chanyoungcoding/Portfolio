@@ -3,7 +3,7 @@ import './project.css';
 import { motion } from 'framer-motion';
 import ProjectBox from '../../components/ProjectBox';
 
-const Index = () => {
+const Project = () => {
   const containerRef = useRef(null);
   const [isDragging, setIsDragging] = useState(false);
   const [startX, setStartX] = useState(null);
@@ -77,4 +77,4 @@ const Index = () => {
   );
 };
 
-export default Index;
+export default Project;

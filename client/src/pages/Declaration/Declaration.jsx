@@ -2,7 +2,7 @@ import React from 'react';
 import './declaration.css';
 import TypeIt from "typeit-react";
 
-const Index = () => {
+const Declaration = () => {
   return (
     <div className='declaration__text'>
       <p className='red__text'>
@@ -20,4 +20,4 @@ const Index = () => {
   );
 };
 
-export default Index;
+export default Declaration;
