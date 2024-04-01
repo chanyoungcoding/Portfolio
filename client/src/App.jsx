@@ -1,15 +1,19 @@
 import {Route, Routes} from 'react-router-dom';
-import Home from './pages/Home/Home';
-import Portfolio from './pages/Portfolio/Portfolio';
-import Project from './pages/Project/Project';
-import Declaration from './pages/Declaration/Declaration';
-import CoffeeProject from './pages/Project/IntroduceProject/CoffeeProject';
-import EpetProject from './pages/Project/IntroduceProject/EpetProject';
+
+import Home from './pages/Home';
+import { Suspense, lazy } from 'react';
+
+const Portfolio = lazy(() => import('./pages/Home'));
+const Project = lazy(() => import('./pages/Project'));
+const Declaration = lazy(() => import('./pages/Declaration'));
+const CoffeeProject = lazy(() => import('./pages/Project/IntroduceProject/CoffeeProject'));
+const EpetProject = lazy(() => import('./pages/Project/IntroduceProject/EpetProject'));
 
 function App() {
   // 라우터 기능 추가
   return (
-    <div className='main'>
+    <Suspense fallback={<div>Loading...</div>} >
+      <div className='main'>
         <Routes>
           <Route index element={<Home/>}/>
           <Route path='/portfolio' element={<Portfolio/>}/>
@@ -18,7 +22,8 @@ function App() {
           <Route path='/coffeeproject' element={<CoffeeProject/>}/>
           <Route path='/epetproject' element={<EpetProject/>}/>
         </Routes>
-    </div>
+      </div>
+    </Suspense>
   );
 }
 
